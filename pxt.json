@@ -1,0 +1,25 @@
+{
+    "name": "teste grove2thingsboard",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "grove2thingsboard": "github:paminaiot/grove_thingsboard#v0.9.29"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.28",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
